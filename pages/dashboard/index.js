@@ -23,7 +23,7 @@ const Dashboard = () => {
     }
 
     useEffect(() => {
-        const token = localStorage.getItem('token')
+        consthrefken = localStorage.getItem('token')
         if (token) {
             const user = jwt.decode(token)
             if (!user) {

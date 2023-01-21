@@ -1,6 +1,11 @@
 import Layout from '../Components/Layout'
-import '../styles/globals.css'
 
+import { hrefastContainer } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
+
+import '../styles/globals.css'
+import '../pages/detailspage/detailspage.css'
 function MyApp({ Component, pageProps }) {
   return <Layout>
     <Component {...pageProps} />
@@ -8,3 +13,6 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp
+
+
+

@@ -68,7 +68,7 @@ export default function Login() {
                                 />
 
                                 <label className="label">
-                                    <a href="/register" className="label-text-alt link link-hover">New to Aliea Register now?</a>
+                                    <a href="/register" className="label-text-alt  link link-hover">Newhref Amelia Register now?</a>
                                 </label>
                             </div>
                             <div className="form-control mt-6">
